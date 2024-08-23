@@ -1,7 +1,5 @@
-tensorflow==2.14.0
-numpy==1.24.2
-pandas==2.0.3  # or the latest compatible version with TensorFlow 2.14.0
-scikit-learn==1.2.2  # Adjust to a compatible version
-feature-engine==1.8.0  # Latest version available
-flask==2.4.4
-gunicorn==21.2.2
+tensorflow
+numpy
+pandas
+flask
+gunicorn
