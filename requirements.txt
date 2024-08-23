@@ -1,4 +1,7 @@
-Flask==2.1.2
 tensorflow==2.14.0  # Upgrade TensorFlow to a version compatible with numpy 1.24.2
 numpy==1.24.2
-gunicorn==20.1.0
+pandas
+scikit-learn
+feature-engine
+flask
+gunicorn
