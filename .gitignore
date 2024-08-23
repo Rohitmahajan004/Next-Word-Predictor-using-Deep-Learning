@@ -1,0 +1,23 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+VENV/
+*.env
+*.venv
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+
+# Flask and Django specific
+instance/
+.webassets-cache
+
+# VSCode specific
+.vscode/
