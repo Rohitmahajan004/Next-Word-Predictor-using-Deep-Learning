@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Word Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Next Word Prediction</h1>
+        <form method="post">
+            <label for="text">Enter Text:</label><br>
+            <input type="text" id="text" name="text" required><br><br>
+            <input type="submit" value="Predict">
+        </form>
+        {% if prediction %}
+            <h2>Predicted Text:</h2>
+            <p>{{ prediction }}</p>
+        {% endif %}
+        <br>
+        <a href="{{ url_for('download_file') }}">Download Sample Text File</a>
+        <h2>The download_file text file use the text to give input text for Prediction</h2>
+    </div>
+</body>
+</html>

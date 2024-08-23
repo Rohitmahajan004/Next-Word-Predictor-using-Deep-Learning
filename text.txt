@@ -1,0 +1,10 @@
+Project Summary
+In this project, a Flask web application was developed to predict the next word in a sentence using a TensorFlow-based LSTM model. The model was trained on a small dataset of FAQ text, and the application allows users to input a sentence fragment to generate the next words.
+
+Key Points:
+
+Model Training: The current model was trained on a limited dataset, which restricts its ability to accurately predict the next words in a sentence. To improve the quality and accuracy of the predictions, it is recommended to train the model on a larger and more diverse dataset. This will enable the model to learn a broader range of language patterns and context.
+
+Output Quality: Due to the limited training data, the model's predictions may not always be accurate or contextually appropriate. Expanding the dataset and possibly fine-tuning the model could significantly enhance the output quality, resulting in more coherent and relevant text predictions.
+
+This project serves as a proof of concept, demonstrating the potential of a text prediction model within a Flask app, while also highlighting areas for future improvement.
